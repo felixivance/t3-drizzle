@@ -5,7 +5,7 @@
 import React from 'react'
 import { NextApiRequest, NextApiResponse } from 'next';
 
-// export const runtime = 'experimental-edge'
+export const runtime = 'experimental-edge'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {

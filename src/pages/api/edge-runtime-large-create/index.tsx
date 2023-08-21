@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-
+export const runtime = 'experimental-edge'
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
