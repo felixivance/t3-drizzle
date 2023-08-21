@@ -5,6 +5,8 @@ import { useState } from "react";
 import { Box, Card, Flex, Table, TextArea } from "@radix-ui/themes";
 import '@radix-ui/themes/styles.css';
 
+export const runtime = 'experimental-edge'
+
 export default function Home() {
   const [todo, setTodo] = useState("");
   const utils = api.useContext();
@@ -15,7 +17,6 @@ export default function Home() {
       utils.todo.getTodos.invalidate();
     }
   })
-  // console.log(getTodos.data);
 
   
 
