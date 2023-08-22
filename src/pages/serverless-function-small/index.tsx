@@ -2,7 +2,6 @@ import { Flex, Text, Button } from '@radix-ui/themes';
 import '@radix-ui/themes/styles.css';
 import { Theme,ThemePanel } from '@radix-ui/themes';
 
-// export const runtime = 'experimental-edge'
 
 export default function MyApp() {
     return (

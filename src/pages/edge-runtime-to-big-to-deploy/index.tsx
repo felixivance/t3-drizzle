@@ -38,6 +38,48 @@ const index = () => {
                     />
                     </AspectRatio>
             </div>
+            <div>
+                <AspectRatio ratio={16 / 8}>
+                    <img
+                        src="/images/1.jpg"
+                        alt="A house in a forest"
+                        style={{
+                        objectFit: 'cover',
+                        width: '100%',
+                        height: '100%',
+                        borderRadius: 'var(--radius-2)',
+                        }}
+                    />
+                    </AspectRatio>
+            </div>
+            <div>
+                <AspectRatio ratio={16 / 8}>
+                    <img
+                        src="/images/2.jpg"
+                        alt="A house in a forest"
+                        style={{
+                        objectFit: 'cover',
+                        width: '100%',
+                        height: '100%',
+                        borderRadius: 'var(--radius-2)',
+                        }}
+                    />
+                    </AspectRatio>
+            </div>
+            <div>
+                <AspectRatio ratio={16 / 8}>
+                    <img
+                        src="/images/1.jpg"
+                        alt="A house in a forest"
+                        style={{
+                        objectFit: 'cover',
+                        width: '100%',
+                        height: '100%',
+                        borderRadius: 'var(--radius-2)',
+                        }}
+                    />
+                    </AspectRatio>
+            </div>
         </div>
     </Theme>
   )
